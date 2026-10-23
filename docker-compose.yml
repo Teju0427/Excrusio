@@ -1,0 +1,53 @@
+# Local development with Docker — no need to install PHP, Composer or MySQL on Windows.
+#   docker compose up -d --build      start everything (first run takes a few minutes)
+#   docker compose exec app php artisan test
+#   docker compose down               stop (your database is kept)
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/dev.Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/var/www/html
+      # PHP packages live in a fast Docker volume instead of your Windows folder.
+      # (Windows folders are very slow for the thousands of small files in vendor/.)
+      - vendor:/var/www/html/vendor
+    environment:
+      COMPOSER_PROCESS_TIMEOUT: 0
+      # These override .env so the app talks to the MySQL container below.
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_DATABASE: excursio
+      DB_USERNAME: excursio
+      DB_PASSWORD: localdev
+      PHP_CLI_SERVER_WORKERS: 4
+    depends_on:
+      mysql:
+        condition: service_healthy
+    # Installs PHP packages if needed, then starts PHP's built-in web server.
+    # (Not `artisan serve`: it does not pass the DB_* settings above to the web server.)
+    command: sh -c "composer install --no-interaction && echo 'Excursio running on http://localhost:8000' && cd public && php -S 0.0.0.0:8000 ../vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php"
+
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: excursio
+      MYSQL_USER: excursio
+      MYSQL_PASSWORD: localdev
+      MYSQL_ROOT_PASSWORD: localroot
+    ports:
+      - "3307:3306"   # 3307 on Windows so it never clashes with another MySQL
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./docker/mysql-init.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-plocalroot"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+volumes:
+  mysql-data:
+  vendor:

@@ -1,0 +1,3 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Something went wrong · Excursio</title>
+<style>body{margin:0;font-family:system-ui,sans-serif;background:#F7F5EF;color:#292D29;display:grid;place-items:center;min-height:100vh;text-align:center;padding:1rem}h1{font-family:Georgia,serif;font-weight:500;font-size:2.4rem}a{color:#fff;background:#243D35;padding:.75rem 1.4rem;border-radius:6px;text-decoration:none;display:inline-block;margin-top:1rem}</style></head>
+<body><div><h1>Something went wrong</h1><p>We couldn't complete that request. Please try again in a moment.</p><a href="/">Back to Excursio</a></div></body></html>

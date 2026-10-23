@@ -1,0 +1,125 @@
+erDiagram
+    USERS ||--o{ LISTINGS : "provides (provider)"
+    USERS ||--o{ BOOKINGS : "makes (customer)"
+    USERS ||--o{ REVIEWS : writes
+    USERS ||--o{ AUDIT_LOGS : performs
+    USERS ||--o{ REPORTS : files
+
+    DESTINATIONS ||--o{ LISTINGS : contains
+    CATEGORIES ||--o{ LISTINGS : classifies
+
+    LISTINGS ||--o{ LISTING_IMAGES : has
+    LISTINGS }o--o{ AMENITIES : "amenity_listing"
+    LISTINGS ||--o| STAY_DETAILS : "1:1 if stay"
+    LISTINGS ||--o| DINING_DETAILS : "1:1 if dining"
+    LISTINGS ||--o| ACTIVITY_DETAILS : "1:1 if activity"
+
+    LISTINGS ||--o{ STAY_UNITS : "rooms (stays)"
+    LISTINGS ||--o{ SCHEDULES : "weekly rules (dining/activity)"
+    LISTINGS ||--o{ TIME_SLOTS : "sessions (dining/activity)"
+    LISTINGS ||--o{ PRICE_RULES : "seasonal prices"
+    LISTINGS ||--o{ AVAILABILITY_BLOCKS : "closures"
+    STAY_UNITS ||--o{ AVAILABILITY_BLOCKS : "room closures"
+
+    LISTINGS ||--o{ BOOKINGS : receives
+    STAY_UNITS ||--o{ BOOKINGS : "reserved for (stays)"
+    TIME_SLOTS ||--o{ BOOKINGS : "reserved for (dining/activity)"
+    BOOKINGS ||--o{ BOOKING_PARTICIPANTS : lists
+    BOOKINGS ||--o{ PAYMENTS : "demo payments"
+    BOOKINGS ||--o| REVIEWS : "max one"
+    LISTINGS ||--o{ REVIEWS : collects
+
+    USERS {
+        bigint id PK
+        string name
+        string email UK
+        string password
+        enum role "customer|provider|admin"
+        enum status "active|suspended"
+        string phone
+    }
+    DESTINATIONS {
+        bigint id PK
+        string name
+        string slug UK
+        string country
+        string hero_image
+        bool is_featured
+    }
+    CATEGORIES {
+        bigint id PK
+        enum listing_type "stay|dining|activity"
+        string name
+        string slug UK
+    }
+    LISTINGS {
+        bigint id PK
+        bigint provider_id FK
+        bigint destination_id FK
+        bigint category_id FK
+        enum listing_type "stay|dining|activity"
+        string title
+        string slug UK
+        text description
+        int base_price_paise
+        enum booking_mode "instant|request"
+        enum cancellation_policy "flexible|moderate|strict"
+        enum status "draft|pending_review|published|rejected|archived"
+        decimal rating_avg "cached from approved reviews"
+        int reviews_count
+    }
+    STAY_UNITS {
+        bigint id PK
+        bigint listing_id FK
+        string name
+        int max_guests
+        int quantity "identical rooms"
+        int price_per_night_paise
+    }
+    TIME_SLOTS {
+        bigint id PK
+        bigint listing_id FK
+        datetime starts_at
+        datetime ends_at
+        int capacity
+        int price_paise "nullable override"
+        enum status "open|closed|cancelled"
+    }
+    BOOKINGS {
+        bigint id PK
+        string reference UK
+        bigint customer_id FK
+        bigint listing_id FK
+        enum listing_type
+        bigint stay_unit_id FK "nullable"
+        bigint time_slot_id FK "nullable"
+        date check_in "stays"
+        date check_out "stays"
+        int rooms
+        int guests
+        int subtotal_paise
+        int fees_paise
+        int total_paise
+        enum status
+        enum payment_status "not_required|unpaid|demo_paid|demo_refunded"
+        datetime hold_expires_at
+        datetime cancelled_at
+        int refund_paise
+    }
+    PAYMENTS {
+        bigint id PK
+        bigint booking_id FK
+        string gateway "demo"
+        string gateway_reference
+        int amount_paise
+        enum status "succeeded|failed|refunded"
+    }
+    REVIEWS {
+        bigint id PK
+        bigint booking_id FK,UK
+        bigint listing_id FK
+        bigint customer_id FK
+        tinyint rating
+        text body
+        enum status "pending|approved|rejected"
+    }

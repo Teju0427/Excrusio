@@ -1,0 +1,482 @@
+[
+  {
+    "file": "hero.webp",
+    "for": "hero",
+    "description": "Matterhorn in winter with Zermatt village",
+    "author": "Deralpinbergsteiger",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Matterhorn_in_winter_with_Zermatt_village.jpg"
+  },
+  {
+    "file": "destination-swiss-alps.webp",
+    "for": "destination:swiss-alps",
+    "description": "CH.VS.Zermatt 2021-10-17 Matterhorn 8726",
+    "author": "Roy Egloff",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:CH.VS.Zermatt_2021-10-17_Matterhorn_8726.jpg"
+  },
+  {
+    "file": "destination-kyoto.webp",
+    "for": "destination:kyoto",
+    "description": "Sunlight through clouds and view of Ginkaku-ji Temple from above, Kyoto, Japan",
+    "author": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sunlight_through_clouds_and_view_of_Ginkaku-ji_Temple_from_above,_Kyoto,_Japan.jpg"
+  },
+  {
+    "file": "destination-bali.webp",
+    "for": "destination:bali",
+    "description": "Landscape, Tirta Gangga, Bali",
+    "author": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Landscape,_Tirta_Gangga,_Bali.jpg"
+  },
+  {
+    "file": "destination-tuscany.webp",
+    "for": "destination:tuscany",
+    "description": "Cypress tree alley at sunset in Asciano, Tuscany",
+    "author": "Eric Kilby",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cypress_tree_alley_at_sunset_in_Asciano,_Tuscany.jpg"
+  },
+  {
+    "file": "destination-iceland.webp",
+    "for": "destination:iceland",
+    "description": "Icelandic Landscape near Neskaupstaður July 2014",
+    "author": "Martin Falbisoner",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Icelandic_Landscape_near_Neskaupsta%C3%B0ur_July_2014.JPG"
+  },
+  {
+    "file": "destination-coorg.webp",
+    "for": "destination:coorg",
+    "description": "A scene see from Irupu Falls, Kodagu, Karnataka, India",
+    "author": "RAHULGANDHI90",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:A_scene_see_from_Irupu_Falls,_Kodagu,_Karnataka,_India.jpg"
+  },
+  {
+    "file": "destination-manali.webp",
+    "for": "destination:manali",
+    "description": "Manali landscape view",
+    "author": "Vaibhavraj241",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Manali_landscape_view.jpg"
+  },
+  {
+    "file": "destination-goa.webp",
+    "for": "destination:goa",
+    "description": "Mandrem Beach and Mandrem River, Mandrem, Goa, India (edit)",
+    "author": "Vyacheslav Argenberg (derivative: UnpetitproleX)",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mandrem_Beach_and_Mandrem_River,_Mandrem,_Goa,_India_(edit).jpg"
+  },
+  {
+    "file": "destination-udaipur.webp",
+    "for": "destination:udaipur",
+    "description": "20191207 Gangaur Ghat and Bagore Ki Haveli, Udaipur 1524 7266",
+    "author": "Jakub Hałun",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:20191207_Gangaur_Ghat_and_Bagore_Ki_Haveli,_Udaipur_1524_7266.jpg"
+  },
+  {
+    "file": "matterhorn-view-chalet-1.webp",
+    "for": "matterhorn-view-chalet",
+    "description": "Zermatt Chalets",
+    "author": "Mikhail Hanief",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zermatt_Chalets.jpg"
+  },
+  {
+    "file": "matterhorn-view-chalet-2.webp",
+    "for": "matterhorn-view-chalet",
+    "description": "CH.VS.Zermatt 2021-10-17 Matterhorn 8726",
+    "author": "Roy Egloff",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:CH.VS.Zermatt_2021-10-17_Matterhorn_8726.jpg"
+  },
+  {
+    "file": "higashiyama-garden-ryokan-1.webp",
+    "for": "higashiyama-garden-ryokan",
+    "description": "Moss lawn in Kyoto, Japan",
+    "author": "cylonfingers on flickr: https://flickr.com/photos/65097875@N07/",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Moss_lawn_in_Kyoto,_Japan.jpg"
+  },
+  {
+    "file": "higashiyama-garden-ryokan-2.webp",
+    "for": "higashiyama-garden-ryokan",
+    "description": "Breakfast at Tamahan Ryokan, Kyoto",
+    "author": "MichaelMaggs",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Breakfast_at_Tamahan_Ryokan,_Kyoto.jpg"
+  },
+  {
+    "file": "ubud-jungle-pool-villa-1.webp",
+    "for": "ubud-jungle-pool-villa",
+    "description": "Ayung Valley River, Ubud (15194218371)",
+    "author": "Fabio Achilli from Milano, Italy",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ayung_Valley_River,_Ubud_(15194218371).jpg"
+  },
+  {
+    "file": "ubud-jungle-pool-villa-2.webp",
+    "for": "ubud-jungle-pool-villa",
+    "description": "Couple of tourist in the jungle of Bali island",
+    "author": "Artem Beliaikin",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Couple_of_tourist_in_the_jungle_of_Bali_island.jpg"
+  },
+  {
+    "file": "podere-delle-colline-1.webp",
+    "for": "podere-delle-colline",
+    "description": "San Quirico d'Orcia - typical farmhouse on hill in autumn",
+    "author": "Enrico Pighetti",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:San_Quirico_d%27Orcia_-_typical_farmhouse_on_hill_in_autumn.jpg"
+  },
+  {
+    "file": "podere-delle-colline-2.webp",
+    "for": "podere-delle-colline",
+    "description": "Wine-growing holding in the Chianti region",
+    "author": "Adbar",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wine-growing_holding_in_the_Chianti_region.jpg"
+  },
+  {
+    "file": "black-sand-glass-cabins-1.webp",
+    "for": "black-sand-glass-cabins",
+    "description": "Church of light",
+    "author": "AstroAnthony",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Church_of_light.jpg"
+  },
+  {
+    "file": "black-sand-glass-cabins-2.webp",
+    "for": "black-sand-glass-cabins",
+    "description": "Reynisfjara, Suðurland, Islandia, 2014-08-17, DD 164",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Reynisfjara,_Su%C3%B0urland,_Islandia,_2014-08-17,_DD_164.JPG"
+  },
+  {
+    "file": "misty-estate-plantation-bungalow-1.webp",
+    "for": "misty-estate-plantation-bungalow",
+    "description": "A scene see from Irupu Falls, Kodagu, Karnataka, India",
+    "author": "RAHULGANDHI90",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:A_scene_see_from_Irupu_Falls,_Kodagu,_Karnataka,_India.jpg"
+  },
+  {
+    "file": "misty-estate-plantation-bungalow-2.webp",
+    "for": "misty-estate-plantation-bungalow",
+    "description": "Ripe Seeds Coffee Robusta Coorg Karnataka India Feb24 D72 25688",
+    "author": "Timothy A. Gonsalves",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ripe_Seeds_Coffee_Robusta_Coorg_Karnataka_India_Feb24_D72_25688.jpg"
+  },
+  {
+    "file": "beas-riverside-cedar-cabins-1.webp",
+    "for": "beas-riverside-cedar-cabins",
+    "description": "Beas River at Nehru Kund, Manali (1)",
+    "author": "In Transit",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Beas_River_at_Nehru_Kund,_Manali_(1).jpg"
+  },
+  {
+    "file": "casa-assagao-heritage-villa-1.webp",
+    "for": "casa-assagao-heritage-villa",
+    "description": "Portuguese Colonial Architecture - Panaji - Goa - India - 01",
+    "author": "Adam Jones Adam63",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Portuguese_Colonial_Architecture_-_Panaji_-_Goa_-_India_-_01.JPG"
+  },
+  {
+    "file": "casa-assagao-heritage-villa-2.webp",
+    "for": "casa-assagao-heritage-villa",
+    "description": "Aerial view of Bastora Villa in Goa",
+    "author": "iMahesh",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Bastora_Villa_in_Goa.jpg"
+  },
+  {
+    "file": "casa-assagao-heritage-villa-3.webp",
+    "for": "casa-assagao-heritage-villa",
+    "description": "Churches and Convents of Goa-109273",
+    "author": "Francesco Bandarin",
+    "license": "CC BY-SA 3.0 igo",
+    "source": "https://commons.wikimedia.org/wiki/File:Churches_and_Convents_of_Goa-109273.jpg"
+  },
+  {
+    "file": "lake-pichola-haveli-1.webp",
+    "for": "lake-pichola-haveli",
+    "description": "City Palace Udaipur Rajasthan India",
+    "author": "Hirumon",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:City_Palace_Udaipur_Rajasthan_India.JPG"
+  },
+  {
+    "file": "lake-pichola-haveli-2.webp",
+    "for": "lake-pichola-haveli",
+    "description": "20191207 Gangaur Ghat and Bagore Ki Haveli, Udaipur 1524 7266",
+    "author": "Jakub Hałun",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:20191207_Gangaur_Ghat_and_Bagore_Ki_Haveli,_Udaipur_1524_7266.jpg"
+  },
+  {
+    "file": "lake-pichola-haveli-3.webp",
+    "for": "lake-pichola-haveli",
+    "description": "Pichola lake sunset",
+    "author": "Arjuncm3",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pichola_lake_sunset.JPG"
+  },
+  {
+    "file": "kamo-omakase-counter-1.webp",
+    "for": "kamo-omakase-counter",
+    "description": "Sushi Counter of Ton Sushi 20100808a",
+    "author": "玄史生",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sushi_Counter_of_Ton_Sushi_20100808a.JPG"
+  },
+  {
+    "file": "kamo-omakase-counter-2.webp",
+    "for": "kamo-omakase-counter",
+    "description": "Omakase",
+    "author": "Greg Ma",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Omakase.jpg"
+  },
+  {
+    "file": "kamo-omakase-counter-3.webp",
+    "for": "kamo-omakase-counter",
+    "description": "Yellowtail Japanese Restaurant & Lounge",
+    "author": "schramms",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yellowtail_Japanese_Restaurant_%26_Lounge.jpg"
+  },
+  {
+    "file": "osteria-del-cipresso-1.webp",
+    "for": "osteria-del-cipresso",
+    "description": "(Pasta) by David Adam Kess (pic.2)",
+    "author": "David Adam Kess",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:(Pasta)_by_David_Adam_Kess_(pic.2).jpg"
+  },
+  {
+    "file": "jharokha-rooftop-1.webp",
+    "for": "jharokha-rooftop",
+    "description": "Lake Pichola, Udaipur India",
+    "author": "Advaraut",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Pichola,_Udaipur_India.jpg"
+  },
+  {
+    "file": "jharokha-rooftop-2.webp",
+    "for": "jharokha-rooftop",
+    "description": "Rajasthani Thali (26444240868)",
+    "author": "Ashwin Kumar from Bangalore, India",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rajasthani_Thali_(26444240868).jpg"
+  },
+  {
+    "file": "stubli-am-gletscher-1.webp",
+    "for": "stubli-am-gletscher",
+    "description": "2015-01-06 Wiki Loves Cheese Racletteessen bei WMAT 7651",
+    "author": "Hubertl",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2015-01-06_Wiki_Loves_Cheese_Racletteessen_bei_WMAT_7651.jpg"
+  },
+  {
+    "file": "tide-toddy-1.webp",
+    "for": "tide-toddy",
+    "description": "Goan typical meal -- fish, curry and rice",
+    "author": "Fredericknoronha",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Goan_typical_meal_--_fish,_curry_and_rice.jpg"
+  },
+  {
+    "file": "tide-toddy-2.webp",
+    "for": "tide-toddy",
+    "description": "140531 Forellen auf dem Grill",
+    "author": "Ansgar Koreng",
+    "license": "CC BY-SA 3.0 de",
+    "source": "https://commons.wikimedia.org/wiki/File:140531_Forellen_auf_dem_Grill.jpg"
+  },
+  {
+    "file": "estate-coffee-table-1.webp",
+    "for": "estate-coffee-table",
+    "description": "Beans Drying Coffee Robusta Balamuri Coorg Feb24 A7C 09491",
+    "author": "Timothy A. Gonsalves",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Beans_Drying_Coffee_Robusta_Balamuri_Coorg_Feb24_A7C_09491.jpg"
+  },
+  {
+    "file": "matterhorn-ski-day-with-a-guide-1.webp",
+    "for": "matterhorn-ski-day-with-a-guide",
+    "description": "Matterhorn Gondel aufgehellt",
+    "author": "de:User:Tower of Orthanc",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Matterhorn_Gondel_aufgehellt.jpg"
+  },
+  {
+    "file": "matterhorn-ski-day-with-a-guide-2.webp",
+    "for": "matterhorn-ski-day-with-a-guide",
+    "description": "Funivia Rote Nase alt",
+    "author": "SteGrifo27 / Edited by Kabelleger",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Funivia_Rote_Nase_alt.JPG"
+  },
+  {
+    "file": "beginner-ski-lessons-at-solang-1.webp",
+    "for": "beginner-ski-lessons-at-solang",
+    "description": "Solang valley under snow, 2015",
+    "author": "Bleezebub",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Solang_valley_under_snow,_2015.jpg"
+  },
+  {
+    "file": "beginner-ski-lessons-at-solang-2.webp",
+    "for": "beginner-ski-lessons-at-solang",
+    "description": "Czorsztyn-Ski ośla łączka",
+    "author": "Happa111",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Czorsztyn-Ski_o%C5%9Bla_%C5%82%C4%85czka.JPG"
+  },
+  {
+    "file": "jogini-falls-guided-trek-1.webp",
+    "for": "jogini-falls-guided-trek",
+    "description": "Jogini Falls surroundings",
+    "author": "Gillian39",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jogini_Falls_surroundings.jpg"
+  },
+  {
+    "file": "jogini-falls-guided-trek-2.webp",
+    "for": "jogini-falls-guided-trek",
+    "description": "Kullu Valley, Vashisht, Manali, Apples, India",
+    "author": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kullu_Valley,_Vashisht,_Manali,_Apples,_India.jpg"
+  },
+  {
+    "file": "tulamben-wreck-dive-1.webp",
+    "for": "tulamben-wreck-dive",
+    "description": "NOAA diver measures coral Rose Atoll 2023",
+    "author": "NOAA Fisheries/Damaris Torres-Pulliza",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:NOAA_diver_measures_coral_Rose_Atoll_2023.png"
+  },
+  {
+    "file": "tulamben-wreck-dive-2.webp",
+    "for": "tulamben-wreck-dive",
+    "description": "Magnificent Sea Anemone, USAT Liberty Wreck, Tulamben, Bali, Indonesia imported from iNaturalist photo 428500231",
+    "author": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Magnificent_Sea_Anemone,_USAT_Liberty_Wreck,_Tulamben,_Bali,_Indonesia_imported_from_iNaturalist_photo_428500231.jpg"
+  },
+  {
+    "file": "sunset-mangrove-kayaking-1.webp",
+    "for": "sunset-mangrove-kayaking",
+    "description": "Kayaking at dawn",
+    "author": "Chamila1974",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kayaking_at_dawn.jpg"
+  },
+  {
+    "file": "sunset-mangrove-kayaking-2.webp",
+    "for": "sunset-mangrove-kayaking",
+    "description": "Calvim backwater",
+    "author": "Manueldcruz",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Calvim_backwater.JPG"
+  },
+  {
+    "file": "sunset-mangrove-kayaking-3.webp",
+    "for": "sunset-mangrove-kayaking",
+    "description": "Kayak-sunset-bay2-OR",
+    "author": "GaylaLin",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Kayak-sunset-bay2-OR.jpg"
+  },
+  {
+    "file": "solheimajokull-glacier-walk-1.webp",
+    "for": "solheimajokull-glacier-walk",
+    "description": "Iceland, Glacier at Skaftafetl",
+    "author": "Eriks Zelenka",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Iceland,_Glacier_at_Skaftafetl.JPG"
+  },
+  {
+    "file": "solheimajokull-glacier-walk-2.webp",
+    "for": "solheimajokull-glacier-walk",
+    "description": "Sólheimajökull - DSC 0413",
+    "author": "Tadeusz Hare",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:S%C3%B3lheimaj%C3%B6kull_-_DSC_0413.jpg"
+  },
+  {
+    "file": "solheimajokull-glacier-walk-3.webp",
+    "for": "solheimajokull-glacier-walk",
+    "description": "Fjallsárlón glacier lake, Iceland, 20240719 1720 2774",
+    "author": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fjalls%C3%A1rl%C3%B3n_glacier_lake,_Iceland,_20240719_1720_2774.jpg"
+  },
+  {
+    "file": "tea-ceremony-in-a-machiya-1.webp",
+    "for": "tea-ceremony-in-a-machiya",
+    "description": "Japan tea ceremony 1165",
+    "author": "Ermell",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Japan_tea_ceremony_1165.jpg"
+  },
+  {
+    "file": "tea-ceremony-in-a-machiya-2.webp",
+    "for": "tea-ceremony-in-a-machiya",
+    "description": "Matcha tea latte with rosetta latte art",
+    "author": "Irvan Ary Maulana",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Matcha_tea_latte_with_rosetta_latte_art.jpg"
+  },
+  {
+    "file": "pasta-making-in-the-vineyard-kitchen-1.webp",
+    "for": "pasta-making-in-the-vineyard-kitchen",
+    "description": "Making a better homemade pasta - 16670047286",
+    "author": "Joy",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Making_a_better_homemade_pasta_-_16670047286.jpg"
+  },
+  {
+    "file": "pasta-making-in-the-vineyard-kitchen-2.webp",
+    "for": "pasta-making-in-the-vineyard-kitchen",
+    "description": "Pasta in colours of italia",
+    "author": "Realpublicdomain2004",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pasta_in_colours_of_italia.jpg"
+  },
+  {
+    "file": "old-city-heritage-walk-1.webp",
+    "for": "old-city-heritage-walk",
+    "description": "Gangaur Ghat 3",
+    "author": "Akbarzoda",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gangaur_Ghat_3.jpg"
+  },
+  {
+    "file": "riverside-camping-night-1.webp",
+    "for": "riverside-camping-night",
+    "description": "Tent camping at Hurricane River Campground (8ab7ecf4-55e8-462b-a159-b0ce7ade5a0d)",
+    "author": "NPS",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Tent_camping_at_Hurricane_River_Campground_(8ab7ecf4-55e8-462b-a159-b0ce7ade5a0d).JPG"
+  },
+  {
+    "file": "riverside-camping-night-2.webp",
+    "for": "riverside-camping-night",
+    "description": "Kaveri River Near Madikeri",
+    "author": "రవిచంద్ర",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kaveri_River_Near_Madikeri.jpg"
+  }
+]
