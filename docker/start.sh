@@ -14,16 +14,24 @@ fi
 php artisan config:cache
 php artisan route:cache
 php artisan view:cache
-php artisan migrate --force
 
-# Demo data: seeded only when the database is empty, so restarts never duplicate it.
-if [ "$SEED_DEMO_DATA" = "true" ]; then
-  php artisan excursio:seed-if-empty
-fi
+# Database setup runs in the background so the web server opens its port straight away
+# (Render gives up if no port is open within a few minutes; seeding a remote DB can take longer).
+(
+  set +e
+  echo "[setup] Running migrations…"
+  php artisan migrate --force || { echo "[setup] MIGRATION FAILED — check the DB_* settings"; exit 1; }
 
-# Public demo only: start every boot from clean demo data (needs EXCURSIO_DEMO_RESET=true too).
-if [ "$DEMO_RESET_ON_BOOT" = "true" ]; then
-  php artisan excursio:demo-reset --force || echo "Demo reset skipped"
-fi
+  # Demo data: seeded only when the database is empty, so restarts never duplicate it.
+  if [ "$SEED_DEMO_DATA" = "true" ]; then
+    php artisan excursio:seed-if-empty || echo "[setup] SEEDING FAILED"
+  fi
+
+  # Public demo only: start every boot from clean demo data (needs EXCURSIO_DEMO_RESET=true too).
+  if [ "$DEMO_RESET_ON_BOOT" = "true" ]; then
+    php artisan excursio:demo-reset --force || echo "[setup] Demo reset skipped"
+  fi
+  echo "[setup] Done."
+) &
 
 exec apache2-foreground
