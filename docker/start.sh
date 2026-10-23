@@ -16,9 +16,9 @@ php artisan route:cache
 php artisan view:cache
 php artisan migrate --force
 
-# Seed demo data on first deploy only (set SEED_DEMO_DATA=true in the dashboard).
+# Demo data: seeded only when the database is empty, so restarts never duplicate it.
 if [ "$SEED_DEMO_DATA" = "true" ]; then
-  php artisan db:seed --force
+  php artisan excursio:seed-if-empty
 fi
 
 # Public demo only: start every boot from clean demo data (needs EXCURSIO_DEMO_RESET=true too).

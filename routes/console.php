@@ -34,3 +34,20 @@ Artisan::command('excursio:demo-reset {--force : Skip the confirmation question}
 
     return 0;
 })->purpose('Wipe and reseed the public demo data');
+
+/*
+ * Used at container start-up: seed the demo data only when the database is still empty,
+ * so restarts (Render's free tier sleeps and wakes often) never duplicate it.
+ */
+Artisan::command('excursio:seed-if-empty', function () {
+    if (\App\Models\User::query()->exists()) {
+        $this->info('Database already has data — not seeding.');
+
+        return 0;
+    }
+    $started = microtime(true);
+    $this->call('db:seed', ['--force' => true]);
+    $this->info(sprintf('Demo data seeded in %.1f s.', microtime(true) - $started));
+
+    return 0;
+})->purpose('Seed demo data once, on an empty database');
