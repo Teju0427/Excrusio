@@ -11,6 +11,17 @@ if [ -n "$DB_SSL_CA_CONTENT" ]; then
   export MYSQL_ATTR_SSL_CA=/etc/ssl/certs/db-ca.pem
 fi
 
+# APP_KEY: tolerate stray spaces/quotes and a missing "base64:" prefix, then check its length.
+APP_KEY=$(printf '%s' "$APP_KEY" | tr -d ' \r\n"'"'")
+case "$APP_KEY" in
+  base64:*|"") ;;
+  *) APP_KEY="base64:$APP_KEY" ;;
+esac
+export APP_KEY
+php -r '$k = getenv("APP_KEY"); $b = base64_decode(substr($k, 7), true); exit(($b !== false && strlen($b) === 32) ? 0 : 1);' \
+  && echo "[setup] APP_KEY looks valid" \
+  || echo "[setup] APP_KEY IS INVALID — run: php artisan key:generate --show, and paste the whole line into Render"
+
 php artisan config:cache
 php artisan route:cache
 php artisan view:cache
